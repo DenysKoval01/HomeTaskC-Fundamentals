@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuessingGame", "HomeTaskC#Fundamentals\GuessingGame.csproj", "{B31720F0-469F-4016-885C-944CDFC783C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GuessingGame", "HomeTaskC#Fundamentals\GuessingGame.csproj", "{B31720F0-469F-4016-885C-944CDFC783C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HangmanGame", "HangmanGame\HangmanGame.csproj", "{B2F87247-CAA5-4BCC-87AF-BB10F774FA18}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HangmanGame", "HangmanGame\HangmanGame.csproj", "{B2F87247-CAA5-4BCC-87AF-BB10F774FA18}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
