@@ -25,14 +25,14 @@ namespace HomeTaskC_Fundamentals
                     Console.Write("I'm thinking of a number between 0 and 50. Can you guess it? ");
                     guess = Convert.ToInt32(Console.ReadLine());
 
-                    printMessageOnNumberDepends(guess, randomNumber);
+                    PrintMessageOnNumberDepends(guess, randomNumber);
                 }
 
-                playAgain = isUserWantsToContinuePlay();
+                playAgain = IsUserWantsToContinuePlay();
             }
         }
 
-        private static void printMessageOnNumberDepends(int guess, int randomNumber)
+        private static void PrintMessageOnNumberDepends(int guess, int randomNumber)
         {
             if (guess < randomNumber)
                 //If the entered number is less then random number, then the program should display a message: ""My number is bigger..""
@@ -45,7 +45,7 @@ namespace HomeTaskC_Fundamentals
                 Console.WriteLine("Bullseye!");
         }
 
-        private static bool isUserWantsToContinuePlay()
+        private static bool IsUserWantsToContinuePlay()
         {
             //Bonus: The program should ask if the player wants to play again. If not, then exit, otherwise the game should start over"
             Console.Write("Do you want to play again? (y/n): ");
